@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from streamlit_drawable_canvas import st_canvas
 
 # Add this near the top after the DATA_CSV setup:
-CALIBRATION_C SV = "calibration_data.csv"
+CALIBRATION_CSV = "calibration_data.csv"
 
 # Function to load calibration
 def load_calibration():
